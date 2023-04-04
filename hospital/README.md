@@ -1,4 +1,4 @@
-# Activité N°2 part 2 : Spring Boot - ORM avec Spring Data JPA Hibernate
+# Activité N°2 part 2 : Use case JPA, Hibernate Spring Data, One To Many, One To One
 
 ### Architecture du projet :
 
