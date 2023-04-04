@@ -1,6 +1,7 @@
 # Activité N°2 part 2 : Spring Boot - ORM avec Spring Data JPA Hibernate
 
 ### Architecture du projet :
+
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/45.png)
 
 ### Package entities :
@@ -35,11 +36,11 @@
 
 - L'interface RendezVousRepository :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/53.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/54.png)
 
 - L'interface ConsultationRepository :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/54.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/53.png)
 
 ### Package service :
 - L'interface IHospitalService et la classe IHospitalServiceImpl qui implémente cette interface :
