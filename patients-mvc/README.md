@@ -47,6 +47,7 @@ L'application doit permettre les fonctionnalités suivantes :
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/96.png)
 
+
 - Affichage des patients avec pagination :
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/97.png)
