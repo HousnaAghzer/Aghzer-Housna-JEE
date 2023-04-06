@@ -33,7 +33,7 @@ L'application doit permettre les fonctionnalités suivantes :
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/92.png)
 
-- Patients.html : 
+- patients.html : 
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/93.png)
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/94.png)
