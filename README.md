@@ -15,3 +15,6 @@ JEE's Projects
 #### part 2 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/hospital
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/hospital/README.md
 
+#### part 3 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/jpa-emsi
+- report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/jpa-emsi/README.md
+
