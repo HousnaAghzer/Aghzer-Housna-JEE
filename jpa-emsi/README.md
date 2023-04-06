@@ -7,76 +7,81 @@
 ### Package entities :
 - L'entité User :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/75.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/75.PNG)
 
 - L'entité Role :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/76.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/76.PNG)
 
 ### Package repositories :
 - L'interface UserRepository :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/77.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/77.PNG)
 
 - L'interface RoleRepository :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/78.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/78.PNG)
 
 ### Package service :
 - L'interface UserService et la classe UserServiceImpl qui implémente cette interface :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/79.png)
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/80.png)
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/81.png)
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/82.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/79.PNG)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/80.PNG)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/81.PNG)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/82.PNG)
 
 ### Package web :
 - La classe UserController :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/83.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/83.PNG)
 
 - La classe JpaEmsiApplication :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/84.png)
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/85.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/84.PNG)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/85.PNG)
 
 - Le fichier application.properties :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/86.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/86.PNG)
 
 #### En utilisant H2Database :
 - La table Users :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/64.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/64.PNG)
 
 - La table Role :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/65.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/65.PNG)
 
 - La table Role_Users :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/66.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/66.PNG)
 
 #### En utilisant Mysql :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/67.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/67.PNG)
 
 - La table Users :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/69.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/69.PNG)
 
 - La table Role :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/68.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/68.PNG)
 
 - La table Role_Users :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/70.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/70.PNG)
 
 ### Résultats :
+- Affichage des rôles d'utilisateur (user1) :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/73.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/73.PNG)
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/71.png)
+- Informations sur l'utilisateur (admin) :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/72.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/71.PNG)
+
+- Informations sur l'utilisateur (user1) :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/72.PNG)
