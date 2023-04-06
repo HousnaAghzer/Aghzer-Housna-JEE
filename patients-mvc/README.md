@@ -47,15 +47,15 @@ L'application doit permettre les fonctionnalités suivantes :
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/96.png)
 
-- Nos patients :
+- Affichage des patients avec pagination :
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/97.png)
 
-- Recherche :
+- Recherche d'un patient :
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/98.png)
 
--Suppression :
+- Suppression d'un patient:
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/99.png)
 
