@@ -1,4 +1,4 @@
-# Activité N°3 : Spring Boot Spring MVC avec Thymeleaf Spring Data
+# Activité N°3 part 1 & part 2 : Spring Boot Spring MVC avec Thymeleaf Spring Data
 
 ### Objectif :
 
