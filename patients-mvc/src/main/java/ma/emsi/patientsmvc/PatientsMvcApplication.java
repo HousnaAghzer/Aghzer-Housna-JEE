@@ -29,7 +29,6 @@ public class PatientsMvcApplication {
 
         };
     }
-
     @Bean
     PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
