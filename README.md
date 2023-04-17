@@ -1,4 +1,4 @@
-  # JEE's Activities - Professor Mohamed Youssefi
+  # JEE's Activities - Professor Mohamed Youssfi
 
 ## Activity 1 
 <details>
