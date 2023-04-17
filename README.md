@@ -1,5 +1,4 @@
-  #                                                                 Aghzer-Housna-JEE
-                                                                JEE's Projects 
+  #This repository contains all activities  
 
 ## Activity 1 
 #### part 1 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/enset_ioc
