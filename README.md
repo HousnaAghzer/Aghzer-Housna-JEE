@@ -1,5 +1,5 @@
   #                                                                 Aghzer-Housna-JEE
-                                                                    JEE's Projects 
+                                                                JEE's Projects 
 
 ## Activity 1 
 #### part 1 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/enset_ioc
