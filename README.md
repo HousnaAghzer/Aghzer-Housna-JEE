@@ -18,7 +18,7 @@
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/jpa-emsi/README.md
 
 ## Activity 3
-#### part 1 & part 2 & part 3 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/patients-mvc
+#### all parts : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/patients-mvc
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/patients-mvc/README.md
 
 ## Activity 4
