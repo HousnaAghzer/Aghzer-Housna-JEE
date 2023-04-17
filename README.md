@@ -1,4 +1,4 @@
-  # This repository contains all activities  
+  # JEE's Activities - Professor Mohamed Youssefi
 
 ## Activity 1 
 #### part 1 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/enset_ioc
