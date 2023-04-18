@@ -1,5 +1,4 @@
 package ma.enset.hospitalapp.security;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +9,6 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
-
 @Configuration //Pour la configuration
 @EnableWebSecurity //Pour activer la sécurité
 //@EnableMethodSecurity(prePostEnabled = true)
@@ -36,7 +34,4 @@ public class SecurityConfig {
         httpSecurity.exceptionHandling().accessDeniedPage("/notAuthorized");
         return httpSecurity.build();
     }
-
-
-
 }

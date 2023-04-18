@@ -9,7 +9,6 @@ public class securityController {
 
         return "notAuthorized";
     }
-
     @GetMapping("/login") // La page d'authentification
     public String login(){
 

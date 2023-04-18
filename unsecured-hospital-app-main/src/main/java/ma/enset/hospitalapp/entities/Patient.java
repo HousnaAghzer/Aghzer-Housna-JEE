@@ -1,5 +1,4 @@
 package ma.enset.hospitalapp.entities;
-
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;

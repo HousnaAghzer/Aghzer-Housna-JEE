@@ -1,5 +1,4 @@
 package ma.enset.hospitalapp.repository;
-
 import ma.enset.hospitalapp.entities.Patient;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

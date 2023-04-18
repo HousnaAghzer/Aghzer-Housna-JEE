@@ -1,5 +1,4 @@
 package ma.enset.hospitalapp.web;
-
 import jakarta.validation.Valid;
 import ma.enset.hospitalapp.entities.Patient;
 import ma.enset.hospitalapp.repository.PatientRepository;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
-
 @Controller
 public class PatientController {
     @Autowired
@@ -55,7 +53,7 @@ public class PatientController {
         return "redirect:/user/index?page="+page+"&keyword="+keyword;
     }
     @GetMapping("/admin/editPatient") // Modifier un patient
-   // @PreAuthorize("hasRole('ROLE ADMIN')")
+    // @PreAuthorize("hasRole('ROLE ADMIN')")
     public String editPatient(Model model,Long id,String keyword, int page){
         Patient patient = patientRepository.findById(id).orElse(null);
         if (patient==null) throw new RuntimeException("Patient introuvable!!!");

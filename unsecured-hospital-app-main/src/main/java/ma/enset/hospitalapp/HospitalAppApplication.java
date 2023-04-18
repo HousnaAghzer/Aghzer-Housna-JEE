@@ -14,7 +14,6 @@ public class HospitalAppApplication {
     public static void main(String[] args) {
         SpringApplication.run(HospitalAppApplication.class, args);
     }
-
     //@Bean
     CommandLineRunner start(PatientRepository patientRepository){
         return args -> {
@@ -24,7 +23,6 @@ public class HospitalAppApplication {
             patientRepository.save(new Patient(null,"Laila",new Date(),false,123));
         };
     }
-
     @Bean
     PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
