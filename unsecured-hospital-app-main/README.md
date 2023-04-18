@@ -57,7 +57,38 @@ Sécuriser une application qui permet de gérer les patients en intégrant un sy
 
 - Le fichier application.properties :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/127.png)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/127.PNG)
+
+### Résultats :
+- Authentification :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/104.PNG)
+
+- Affichage des patients avec pagination :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/105.PNG)
+
+- Recherche d'un patient :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/106.PNG)
+
+#### Coté administrateur :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/100.PNG)
+
+- Ajout d'un patient :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/101.PNG)
+
+- Modification d'un patient :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/102.PNG)
+
+- Suppression d'un patient :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/103.PNG)
+
+
 
 
 
