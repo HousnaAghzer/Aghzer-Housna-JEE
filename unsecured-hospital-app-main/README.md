@@ -66,27 +66,27 @@ Sécuriser une application qui permet de gérer les patients en intégrant un sy
 
 - Affichage des patients avec pagination :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/105.PNG)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/134.PNG)
 
 - Recherche d'un patient :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/106.PNG)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/133.PNG)
 
 #### Coté administrateur :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/100.PNG)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/128.PNG)
 
 - Ajout d'un patient :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/101.PNG)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/129.PNG)
 
 - Modification d'un patient :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/102.PNG)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/130.PNG)
 
 - Suppression d'un patient :
 
-![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/103.PNG)
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/131.PNG)
 
 
 
