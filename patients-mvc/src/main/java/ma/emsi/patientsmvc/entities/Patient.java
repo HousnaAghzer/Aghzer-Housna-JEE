@@ -1,5 +1,4 @@
 package ma.emsi.patientsmvc.entities;
-
 import jakarta.persistence.*;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotEmpty;
