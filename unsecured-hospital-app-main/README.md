@@ -1,4 +1,4 @@
-# Activité pratique 4 : Spring Security (En cours)
+# Activité pratique 4 : Spring Security (En cours - Pas encore finalisé)
 
 ### Objectif de cette activité :
 
