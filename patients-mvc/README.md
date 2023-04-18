@@ -46,9 +46,13 @@ L'application doit permettre les fonctionnalités suivantes :
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/113.PNG)
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/114.PNG)
 
-- La classe PatientsMvcApplication :
+- La classe SecurityController :
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/115.PNG)
+
+- La classe PatientsMvcApplication :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/116.PNG)
 
 - patients.html : 
 
