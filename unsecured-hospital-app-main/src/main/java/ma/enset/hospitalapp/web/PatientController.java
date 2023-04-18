@@ -20,7 +20,7 @@ import java.util.List;
 public class PatientController {
     @Autowired
     private PatientRepository patientRepository;
-    @GetMapping(path = "/user/index")
+    @GetMapping(path = "/user/index") //Chercher un patient
     public String index(Model model,
                         @RequestParam(name = "page",defaultValue = "0") int page,
                         @RequestParam(name = "size",defaultValue = "5") int size,
@@ -33,19 +33,19 @@ public class PatientController {
         model.addAttribute("keyword",kw);
         return "patients";
     }
-    @GetMapping("/admin/deletePatient")
+    @GetMapping("/admin/deletePatient") // Supprimer un patient
     //@PreAuthorize("hasRole('ROLE ADMIN')")
     public String deletePatient(@RequestParam(name = "id") Long id, String keyword, int page){
         patientRepository.deleteById(id);
         return "redirect:/user/index?page="+page+"&keyword="+keyword;
     }
-    @GetMapping("/admin/formPatients")
+    @GetMapping("/admin/formPatients") // Afficher le formulaire de saisie
     //@PreAuthorize("hasRole('ROLE ADMIN')")
     public String formPatient(Model model ){
         model.addAttribute("patient",new Patient());
         return "formPatients";
     }
-    @PostMapping("/admin/save")
+    @PostMapping("/admin/save") // Enregistrer un patient
     //@PreAuthorize("hasRole('ROLE ADMIN')")
     public String save(@Valid Patient patient, BindingResult bindingResult,
                               @RequestParam(defaultValue = "0") int page,
@@ -54,7 +54,7 @@ public class PatientController {
         patientRepository.save(patient);
         return "redirect:/user/index?page="+page+"&keyword="+keyword;
     }
-    @GetMapping("/admin/editPatient")
+    @GetMapping("/admin/editPatient") // Modifier un patient
    // @PreAuthorize("hasRole('ROLE ADMIN')")
     public String editPatient(Model model,Long id,String keyword, int page){
         Patient patient = patientRepository.findById(id).orElse(null);
@@ -64,7 +64,7 @@ public class PatientController {
         model.addAttribute("keyword",keyword);
         return "editPatient";
     }
-    @GetMapping("/")
+    @GetMapping("/") // Page home
     public String home(){
         return "redirect:/user/index";
     }

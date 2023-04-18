@@ -19,7 +19,7 @@ public class Patient {
     @NotEmpty @Size(min = 4, max = 20)  //Annotation de validation
     private String nom;
     @Temporal(TemporalType.DATE)  //Annotation Jpa
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @DateTimeFormat(pattern = "yyyy-MM-dd") //Annotation pour le format de la date
     private Date dateNaissance;
     private boolean malade;
     @Min(10)  //Annotation de validation
