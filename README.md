@@ -1,5 +1,5 @@
   # JEE's Activities - Professor Mohamed Youssfi
-                                          In every activity you'll find the code with a report                                          
+                                        In each activity you'll find the code with a report                                        
 
 ## Activity 1 
 <details>
