@@ -63,6 +63,14 @@ L'application doit permettre les fonctionnalités suivantes :
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/95.png)
 
+- PhpMyAdmin :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/137.PNG)
+
+- La table des patients :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/138.PNG)
+
 ### Résultats :
 - Liste des patients format json :
 
