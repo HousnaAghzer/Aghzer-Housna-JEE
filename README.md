@@ -2,7 +2,7 @@
 
 ## Activity 1 
 <details>
-<summary>All parts</summary>
+<summary>Mise en oeuvre de l'injection des dépendances</summary>
   
 #### part 1 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/enset_ioc
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/enset_ioc/README.md
@@ -14,7 +14,7 @@
 
 ## Activity 2 
 <details>
-<summary>All parts</summary>
+<summary>Spring Boot - ORM avec Spring Data JPA Hibernate</summary>
   
 #### part 1 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/jpa-ap
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/jpa-ap/README.md
@@ -28,7 +28,7 @@
 
 ## Activity 3
 <details>
-<summary>All parts</summary>
+<summary>Spring Boot Spring MVC avec Thymeleaf Spring Data</summary>
   
 https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/patients-mvc
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/patients-mvc/README.md
@@ -36,7 +36,7 @@ https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/patients-mvc
 
 ## Activity 4
 <details>
-<summary>All parts</summary>
+<summary>Spring Security</summary>
   
 https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/unsecured-hospital-app-main
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/unsecured-hospital-app-main/README.md
