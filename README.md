@@ -14,7 +14,7 @@
 
 ## Activity 2 
 <details>
-<summary>Spring Boot - ORM avec Spring Data JPA Hibernate</summary>
+<summary>Spring Boot - ORM avec Spring Data JPA Hibernate / Use case JPA, One To Many, One To One, Many To Many Case</summary>
   
 #### part 1 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/jpa-ap
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/jpa-ap/README.md
