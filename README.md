@@ -28,7 +28,7 @@
 
 ## Activity 3
 <details>
-<summary>Spring Boot Spring MVC avec Thymeleaf Spring Data</summary>
+<summary>Spring Boot Spring MVC avec Thymeleaf Spring Data, Spring Security</summary>
   
 https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/patients-mvc
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/patients-mvc/README.md
