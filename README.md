@@ -1,4 +1,5 @@
   # JEE's Activities - Professor Mohamed Youssfi
+                                          In every activity you'll find the code with a report                                          
 
 ## Activity 1 
 <details>
@@ -41,3 +42,5 @@ https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/patients-mvc
 https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/unsecured-hospital-app-main
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/unsecured-hospital-app-main/README.md
 </details>
+
+
