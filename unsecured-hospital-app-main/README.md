@@ -59,6 +59,14 @@ Sécuriser une application qui permet de gérer les patients en intégrant un sy
 
 ![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/127.PNG)
 
+- PhpMyAdmin :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/135.PNG)
+
+- La table des patients :
+
+![Login](https://github.com/HousnaAghzer/All-Ressources-/blob/master/136.PNG)
+
 ### Résultats :
 - Authentification :
 
