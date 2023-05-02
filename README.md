@@ -47,8 +47,8 @@ https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/unsecured-hospital
 <details>
 <summary>Spring Angular</summary>
   
-https://github.com/AghzerHousna/Aghzer-Housna-JEE/tree/master/ebanking-backend
-- report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/ebanking-backend/README.md
+https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/ebanking-backend
+- report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/ebanking-backend/README.md
 </details>
 
 
