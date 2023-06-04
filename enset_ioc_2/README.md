@@ -1,4 +1,4 @@
-# Activité N°1 Part 2 : Mise en oeuvre de l'injection des dépendances
+# Activité N°1 Part 2 : La mise en oeuvre de l'injection des dépendances
 
 ### Dans cette partie on va voir comment créer une application fermée à la modification et ouverte à l'extension en utilisant le couplage faible et l'injection des dépendances :
 
