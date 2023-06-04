@@ -1,4 +1,4 @@
-# Activité N°1 Part 1 : Mise en oeuvre de l'injection des dépendances
+# Activité N°1 Part 1 : La mise en oeuvre de l'injection des dépendances
 
 #### Architecture du projet :
 
