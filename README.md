@@ -47,7 +47,7 @@ https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/unsecured-hospital
 <details>
 <summary>Spring Angular</summary>
   
-- Backend Part 1 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/ebanking-backend
+- Backend Part 1 & 2: https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/ebanking-backend
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/ebanking-backend/README.md
 - Frontend : In progress ....
 </details>
@@ -55,7 +55,7 @@ https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/unsecured-hospital
 ## Activity 6
 <details>
 <summary>Spring Angular Demo</summary>
-In progress ....
+https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/emsi-app
 </details>
 
 
