@@ -2,9 +2,8 @@ package ma.emsi.ebankingbackend.web;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import ma.emsi.ebankingbackend.dtos.AccountHistoryDTO;
-import ma.emsi.ebankingbackend.dtos.AccountOperationDTO;
-import ma.emsi.ebankingbackend.dtos.BankAccountDTO;
+import ma.emsi.ebankingbackend.dtos.*;
+import ma.emsi.ebankingbackend.exceptions.BalanceNotSufficientException;
 import ma.emsi.ebankingbackend.exceptions.BankAccountNotFoundException;
 import ma.emsi.ebankingbackend.services.BankAccountService;
 import org.springframework.web.bind.annotation.*;
@@ -37,5 +36,21 @@ public class BankAccountRestAPI {
             @RequestParam(name="size",defaultValue = "5")int size) throws BankAccountNotFoundException {
         return bankAccountService.getAccountHistory(accountId,page,size);
     }
-
+    @PostMapping("/accounts/debit")
+    public DebitDTO debit(@RequestBody DebitDTO debitDTO) throws BankAccountNotFoundException, BalanceNotSufficientException {
+        this.bankAccountService.debit(debitDTO.getAccountId(),debitDTO.getAmount(),debitDTO.getDescription());
+        return debitDTO;
+    }
+    @PostMapping("/accounts/credit")
+    public CreditDTO credit(@RequestBody CreditDTO creditDTO) throws BankAccountNotFoundException {
+        this.bankAccountService.credit(creditDTO.getAccountId(),creditDTO.getAmount(),creditDTO.getDescription());
+        return creditDTO;
+    }
+    @PostMapping("/accounts/transfer")
+    public void transfer(@RequestBody TransferRequestDTO transferRequestDTO) throws BankAccountNotFoundException, BalanceNotSufficientException {
+        this.bankAccountService.transfer(
+                transferRequestDTO.getAccountSource(),
+                transferRequestDTO.getAccountDestination(),
+                transferRequestDTO.getAmount());
+    }
 }

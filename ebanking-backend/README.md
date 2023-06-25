@@ -1,4 +1,4 @@
-# Activité N°5 - Part 1 : Spring Angular Digital Banking, Part 2 In progress
+# Activité N°5 - Part 1 : Spring Angular Digital Banking
 
 ### Structure de projet :
 <img width="268" alt="153" src="https://user-images.githubusercontent.com/123586109/235750194-81693c5a-e0d9-4dc0-baa2-04eb33dce242.PNG">
