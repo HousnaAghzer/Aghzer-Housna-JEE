@@ -10,7 +10,7 @@
 ![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/db5bd028-458b-462f-96ce-f076d9a71037)
 
 
-## Les résultats de l"exécution :
+## Les résultats de l'exécution :
 - Home :
 ![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/8877a6c5-7778-434f-8b28-d3b7ca1c3807)
 
