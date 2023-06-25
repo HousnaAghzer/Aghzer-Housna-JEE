@@ -1,52 +1,143 @@
-# Activité N°5 - Part 1 : Spring Angular Digital Banking
+# Activité N°5 - Part 1 & 2 : Projet Digital Banking - Partie Backend Spring JWT 
 
 ### Structure de projet :
-<img width="268" alt="153" src="https://user-images.githubusercontent.com/123586109/235750194-81693c5a-e0d9-4dc0-baa2-04eb33dce242.PNG">
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/8bae7e98-e973-4610-9a67-6270357b1ffa)
+
 
 ### Package entities :
-+ Class Customer : 
-<img width="474" alt="155" src="https://user-images.githubusercontent.com/123586109/235750770-beff467d-c4b5-45c1-90e1-91dc3dc8c5e9.PNG">
 
-+ Class BankAccount : 
-<img width="740" alt="154" src="https://user-images.githubusercontent.com/123586109/235750879-40f84cfd-bc95-4b97-92e6-ded55b292b3d.PNG">
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/0db6ed31-d313-4384-9f9c-66a31f1ba904)
 
-+ Class CurrentAccount : 
-<img width="371" alt="156" src="https://user-images.githubusercontent.com/123586109/235751800-ce193876-0d9b-4d5b-b39f-bfa84a9ef273.PNG">
+
++ Class Customer :
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/929c9c4d-473d-4da2-a7b7-75ff2ba2d7d9)
+
++ Class BankAccount :
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/10913cdf-f047-420f-ba7c-8c311ad866ba)
+
++ Class CurrentAccount :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/58d3cb89-9e20-401c-8822-d98e6acde9b7)
 
 + Class SavingAccount :
-<img width="335" alt="157" src="https://user-images.githubusercontent.com/123586109/235751876-ccb17745-17f9-417d-8a08-18105dfd7fe4.PNG">
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/2aad12da-7cc0-409c-97f8-d9a0b1db40bf)
 
 + Class AccountOperation :
-<img width="407" alt="158" src="https://user-images.githubusercontent.com/123586109/235801395-3e1f97ac-2d27-493c-8d72-4b9a69a5ba1f.PNG">
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/02d105b9-0de4-4947-b264-2cf009499951)
 
 ### Package enums :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/e1e60a3b-726b-4798-b22c-c3cb9e4f1fd9)
+
 + Class AccountStatus :
-<img width="279" alt="159" src="https://user-images.githubusercontent.com/123586109/235802152-6115fd37-c8af-4a2c-ae9b-c60f160827e1.PNG">
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/eb3f31fa-9bc3-423e-ab82-0575eee44bf3)
 
 + Class OperationType :
-<img width="276" alt="160" src="https://user-images.githubusercontent.com/123586109/235803303-9b75052f-009b-446d-8cc9-a53b803db9f3.PNG">
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/e40b071a-778d-4d9f-a503-cb3c71a11e72)
 
 ### Package repositories :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/8f8cc25a-4e83-4897-9e80-c3f24780c2ea)
+
 + Interface CustomerRepository :
-<img width="498" alt="162" src="https://user-images.githubusercontent.com/123586109/235803671-ee42b3b9-5f7c-4941-8dfa-3b6f998bc767.PNG">
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/a9074cfd-d76a-4718-9c87-42deb5582471)
 
 + Interface BankAccountRepository :
-<img width="552" alt="161" src="https://user-images.githubusercontent.com/123586109/235803573-56571ce4-b5b1-4405-ad1c-ec82f31bff93.PNG">
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/0f7da6dc-37d7-42fb-83be-6a2fff25f7b3)
 
-+ Interface AccountOperationRepository : 
-<img width="598" alt="163" src="https://user-images.githubusercontent.com/123586109/235804215-25f2a17b-0f79-4724-bee7-32a6b0ace8b5.PNG">
++ Interface AccountOperationRepository :
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/af904a36-6bc1-49bb-86ed-cb1e2d72d389)
+
+### Package Dtos :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/57c0c9c3-44de-4549-86a2-819cfbe6f05e)
+
++ Class CustomerDTO :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/c39a4fcb-06b0-4e8d-b880-1a52bb15cff9)
+
++ Class AccountHistoryDTO :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/4dbbbeea-f2ee-4fb9-9f72-1f92f5f594d8)
+
++ Class BankAccountDTO :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/a5a8a247-35da-42d3-be5b-68db0e924107)
+
+
++ Class CurrentBankAccountDTO :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/4150d80d-aaf5-476c-9a01-187296d7de98)
+
+
++ Class SavingBankAccountDTO :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/bd26b3dd-38fe-49aa-9d04-c00f123c4438)
+
++ Class AccountOperationDTO :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/59df2a8f-2048-4b65-ac45-a88e318b3aef)
+
++ Class CreditDTO :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/4051e12b-fe88-4dc2-876d-0350c0ee18d8)
+
++ Class DebitDTO :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/823eb03e-5fb4-43e4-a450-0a259878b1e4)
+
++ Class TransferDTO :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/0bd62b3a-24cb-4fd3-ac8e-ffa60b1af6f4)
+
+### Package mappers :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/72c0cb89-d939-409d-8d93-c1807b724222)
+
++ Class BankAccountMapperImpl :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/0f74921c-0292-450e-bf4a-801de3f84e6a)
+
+### Package exceptions :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/17b9c2ae-8404-402e-87ea-3cda0089f3a0)
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/2f1d82e3-75a2-4165-9f4b-e45fecd3e61c)
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/fee74ba8-8a05-408e-bd0d-75990179a149)
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/80f7469d-32ef-4224-bad1-771a4326c5b2)
 
 ### Package service :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/a3f10983-3928-454b-825b-f67e04df7eb8)
+
++ Interface :
+
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/67e6659d-345c-4422-a192-da28a4d8ed0c)
+
++ Implementation :
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/153316b2-ec27-4e23-a029-8f28358db598)
+
+
 + Class BankService :
-<img width="796" alt="164" src="https://user-images.githubusercontent.com/123586109/235805249-be363cec-506d-4c61-8d26-3bdca27e283b.PNG">
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/09284e1e-20f0-435a-8e17-002b993cb42c)
+
+### Package web :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/c0e62ef4-19ce-4b80-ab2e-9305e9ff65e0)
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/2798ab6f-9980-4f7c-8151-ebedbe3d3090)
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/42ef556f-4d10-4a87-aef8-1fee677743ce)
+
 
 ### Class main EbankingBackendApplication : 
-<img width="724" alt="165" src="https://user-images.githubusercontent.com/123586109/235806770-90b31846-dccd-4c98-8225-a916c1fd5363.PNG">
-<img width="740" alt="166" src="https://user-images.githubusercontent.com/123586109/235806779-fc8c9fbd-e68e-4abe-b071-5777545539b0.PNG">
-<img width="720" alt="167" src="https://user-images.githubusercontent.com/123586109/235806790-d8aa6ee1-e593-4426-b632-923bdee143bb.PNG">
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/e898a080-a344-4d65-9100-284d7ea50dc3)
+
 
 ### Configuration file application.properties :
-<img width="579" alt="168" src="https://user-images.githubusercontent.com/123586109/235806838-e46871da-fecf-46cc-acd9-3630e1708da5.PNG">
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/cfd4324e-a2c0-4a8e-be71-617ccda3b480)
+
 
 ### H2 Database :
 + With SINGLE_TABLE :
@@ -75,6 +166,24 @@
 
 + With LAZY mode :
 <img width="851" alt="152" src="https://user-images.githubusercontent.com/123586109/235807803-1f3fe72b-08e6-4f93-ac2b-8287a4cd7dc2.PNG">
+
++ Les tests API (Insomnia & SwaggerUI) :
+  
+  - GET :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/7e1cf12f-8314-4ac1-abe0-f6b26158e81b)
+  - POST :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/6ea99579-1d96-494d-a43f-78850e2238d1)
+  - SwaggerUI :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/3bf4a163-e830-48ab-9124-169495f7c0ed)
+  - L’API du RestControllers :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/c0ce191a-fa15-475e-88a7-e9740d0f7092)
+  -	L’exécution du GET au niveau de l’api SwaggerUI :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/939c914c-042f-402c-af8d-800272e2d9c2)
+
+
+
+
+
 
 
 
