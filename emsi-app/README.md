@@ -1,27 +1,34 @@
-# EmsiApp
+# Demonstration Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+## C'est une démonstration pour maitriser les concepts fondamentaux de Angular
+- Structure du projet :
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/0d8cce2d-d6c9-4164-9463-a53417cf89d6)
 
-## Development server
+- Le fichier de base de données db.json :
+  
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/db5bd028-458b-462f-96ce-f076d9a71037)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Les résultats de l"exécution :
+- Home :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/8877a6c5-7778-434f-8b28-d3b7ca1c3807)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- La liste des produits :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/914a20a3-2387-4853-8026-2ba126d0b0f0)
 
-## Build
+- Ajouter un nouveau produit :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/8728e084-28ae-4ae1-b2db-0d818d11ed47)
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/c15c1ec2-d0eb-4c9f-8c42-8eb174fd89d3)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+- Modifier le statut d'un produit :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/658bc220-b0e2-4b1f-aa6d-3f9a15ba44e0)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Suppression d'un produit :
+![image](https://github.com/HousnaAghzer/Aghzer-Housna-JEE/assets/123586109/de1628d2-e116-4645-bebd-f072b677be5d)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
