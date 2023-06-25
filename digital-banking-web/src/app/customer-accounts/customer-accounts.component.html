@@ -1,0 +1,26 @@
+<div class="container mt-2">
+  <div class="text-danger">ID : {{customerId}}</div>
+  <div class="text-success">Details : {{customer | json}}</div>
+</div>
+<div class="container mt-3">
+  <div class="card">
+    <div class="card-header">Details of Customer Account</div>
+    <div class="card-body">
+      <table class="table">
+        <thead>
+        <tr>
+          <th>ID</th><th>Name</th><th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>{{customer.id}}</td>
+          <td>{{customer.name}}</td>
+          <td>{{customer.email}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
