@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 5600,
+      "checked": true
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": 3200,
+      "checked": true
+    },
+    {
+      "id": 3,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "id": 4,
+      "name": "Printer",
+      "price": 3200,
+      "checked": false
+    },
+    {
+      "id": 5,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "id": 6,
+      "name": "Printer",
+      "price": 3200,
+      "checked": false
+    },
+    {
+      "id": 7,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "name": "Smart",
+      "price": "8555",
+      "checked": true,
+      "id": 8
+    },
+    {
+      "name": "Smart",
+      "price": "8555",
+      "checked": true,
+      "id": 9
+    },
+    {
+      "name": "HHH",
+      "price": "22",
+      "checked": true,
+      "id": 10
+    },
+    {
+      "name": "HLL",
+      "price": "22222222222",
+      "checked": false,
+      "id": 11
+    },
+    {
+      "name": "BB",
+      "price": "299",
+      "checked": false,
+      "id": 12
+    },
+    {
+      "name": "BB",
+      "price": "299",
+      "checked": false,
+      "id": 13
+    },
+    {
+      "name": "BB",
+      "price": "299",
+      "checked": false,
+      "id": 14
+    }
+  ]
+}
