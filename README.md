@@ -56,7 +56,8 @@ https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/unsecured-hospital
 ## Activity 6
 <details>
 <summary>Spring Angular Demo</summary>
-https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/emsi-app
+#### Total Demo : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/emsi-app
+- report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/blob/master/emsi-app/README.md
 </details>
 
 
