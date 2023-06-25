@@ -1,5 +1,4 @@
 package ma.emsi.ebankingbackend;
-
 import ma.emsi.ebankingbackend.dtos.BankAccountDTO;
 import ma.emsi.ebankingbackend.dtos.CurrentBankAccountDTO;
 import ma.emsi.ebankingbackend.dtos.CustomerDTO;
@@ -7,8 +6,6 @@ import ma.emsi.ebankingbackend.dtos.SavingBankAccountDTO;
 import ma.emsi.ebankingbackend.entities.*;
 import ma.emsi.ebankingbackend.enums.AccountStatus;
 import ma.emsi.ebankingbackend.enums.OperationType;
-import ma.emsi.ebankingbackend.exceptions.BalanceNotSufficientException;
-import ma.emsi.ebankingbackend.exceptions.BankAccountNotFoundException;
 import ma.emsi.ebankingbackend.exceptions.CustomerNotFoundException;
 import ma.emsi.ebankingbackend.repositories.AccountOperationRepository;
 import ma.emsi.ebankingbackend.repositories.BankAccountRepository;
@@ -19,26 +16,21 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Stream;
-
 @SpringBootApplication
 public class EbankingBackendApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(EbankingBackendApplication.class, args);
     }
-
     //@Bean
     CommandLineRunner commandLineRunner(BankService bankService) {
         return args -> {
             bankService.consulter();
         };
     }
-
     @Bean
     CommandLineRunner commandLineRunner(BankAccountService bankAccountService) {
         return args -> {
@@ -72,7 +64,6 @@ public class EbankingBackendApplication {
             }
         };
     }
-
     //@Bean
     CommandLineRunner start(CustomerRepository customerRepository,
                             BankAccountRepository bankAccountRepository,
@@ -93,7 +84,6 @@ public class EbankingBackendApplication {
                 currentAccount.setCustomer(cust);
                 currentAccount.setOverDraft(9000);
                 bankAccountRepository.save(currentAccount);
-
                 SavingAccount savingAccount = new SavingAccount();
                 savingAccount.setId(UUID.randomUUID().toString());
                 savingAccount.setBalance(Math.random() * 90000);
@@ -116,4 +106,3 @@ public class EbankingBackendApplication {
         };
     }
 }
-

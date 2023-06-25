@@ -1,12 +1,10 @@
 package ma.emsi.ebankingbackend.web;
-
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import ma.emsi.ebankingbackend.dtos.CustomerDTO;
 import ma.emsi.ebankingbackend.exceptions.CustomerNotFoundException;
 import ma.emsi.ebankingbackend.services.BankAccountService;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 @RestController
 @AllArgsConstructor
@@ -39,5 +37,4 @@ public class CustomerRestController {
     public void deleteCustomer(@PathVariable Long id){
           bankAccountService.deleteCustomer(id);
     }
-
 }

@@ -1,6 +1,4 @@
 package ma.emsi.ebankingbackend.mappers;
-
-import com.fasterxml.jackson.databind.util.BeanUtil;
 import ma.emsi.ebankingbackend.dtos.AccountOperationDTO;
 import ma.emsi.ebankingbackend.dtos.CurrentBankAccountDTO;
 import ma.emsi.ebankingbackend.dtos.CustomerDTO;
@@ -17,9 +15,6 @@ public class BankAccountMapperImpl {
     public CustomerDTO fromCustomer(Customer customer){
         CustomerDTO customerDTO=new CustomerDTO();
         BeanUtils.copyProperties(customer, customerDTO);
-        /*customerDTO.setId(customer.getId());
-        customerDTO.setName(customer.getName());
-        customerDTO.setEmail(customer.getEmail());*/
         return customerDTO;
     }
     public Customer fromCustomerDTO(CustomerDTO customerDTO){

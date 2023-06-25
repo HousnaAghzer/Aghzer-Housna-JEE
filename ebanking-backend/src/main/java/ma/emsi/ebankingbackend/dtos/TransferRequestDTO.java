@@ -1,7 +1,5 @@
 package ma.emsi.ebankingbackend.dtos;
-
 import lombok.Data;
-
 @Data
 public class TransferRequestDTO {
     private String accountSource;

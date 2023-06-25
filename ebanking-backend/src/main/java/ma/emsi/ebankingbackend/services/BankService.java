@@ -1,5 +1,4 @@
 package ma.emsi.ebankingbackend.services;
-
 import jakarta.transaction.Transactional;
 import ma.emsi.ebankingbackend.entities.BankAccount;
 import ma.emsi.ebankingbackend.entities.CurrentAccount;
@@ -7,7 +6,6 @@ import ma.emsi.ebankingbackend.entities.SavingAccount;
 import ma.emsi.ebankingbackend.repositories.BankAccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 @Service
 @Transactional
 public class BankService {
