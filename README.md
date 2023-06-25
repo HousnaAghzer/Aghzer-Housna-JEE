@@ -49,7 +49,7 @@ https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/unsecured-hospital
   
 - Backend Part 1 & 2: https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/ebanking-backend
 - report : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/ebanking-backend/README.md
-- Frontend : In progress ....
+- Frontend Part 3 & 4 : https://github.com/HousnaAghzer/Aghzer-Housna-JEE/tree/master/digital-banking-web
 </details>
 
 ## Activity 6
